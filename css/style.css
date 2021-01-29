@@ -782,19 +782,19 @@ HISTORY MISSION
   font-weight: 700;
   line-height: 70px;
   margin: 10px 0px;
-  color: #fff;
+  color: #000;
 }
 
 .counter-stat i {
   font-size: 40px;
-  color: #fff;
+  color: #000;
   margin-right: 10px;
 }
 
 .counter-stat h5 {
   font-weight: 400;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
 }
 
 .counter-block span {
