@@ -777,8 +777,8 @@ HISTORY MISSION
  COUNTER SECTION
 -----------------------------*/
 .counter {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 100px;
+  line-height: 100px;
   font-weight: 700;
   line-height: 70px;
   margin: 10px 0px;
@@ -786,7 +786,7 @@ HISTORY MISSION
 }
 
 .counter-stat i {
-  font-size: 40px;
+  font-size: 60px;
   color: #000;
   margin-right: 10px;
 }
@@ -810,8 +810,8 @@ HISTORY MISSION
   background: url("../images/banner/pattern-3.png") fixed 50% 50%;
   position: relative;
   background-size: cover;
-  padding-top: 87px;
-  padding-bottom: 95px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /*--------------------------
@@ -1447,7 +1447,7 @@ BLOG SINGLE
      COUNTER
     ----------------*/
   .counter-stat {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
   }
   /*--------------
@@ -1524,7 +1524,7 @@ BLOG SINGLE
      COUNTER
     ----------------*/
   .counter-stat {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
   }
   /*--------------
@@ -1658,7 +1658,7 @@ BLOG SINGLE
      COUNTER
     ----------------*/
   .counter-stat {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
   }
   /*--------------
