@@ -313,6 +313,10 @@ h5.subtitle {
   opacity: .87;
 }
 
+.white-overlay {
+  background: white;
+}
+
 /* ========================
 
 ==============================*/
