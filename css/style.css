@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
   font-size: 16px;
   font-weight: 400;
@@ -1762,8 +1762,25 @@ iframe{
 
   
 /* FAQ area */
+*@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  margin: 50px 0 30px;
+text-align: center;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .faq {
@@ -1778,28 +1795,28 @@ iframe{
 }
 
 .faq.active {
-  background-color: #fff;
+  background-color: #f0f0f0;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
 }
 
 .faq.active::before,
 .faq.active::after {
-  content: '\f075';
-  font-family: 'Font Awesome 5 Free';
-  color: #2ecc71;
-  font-size: 7rem;
-  position: absolute;
-  opacity: 0.2;
-  top: 20px;
-  left: 20px;
-  z-index: 0;
+  /*content: '\f075';*/
+  /*font-family: 'Font Awesome 5 Free';*/
+  /*color: #2ecc71;*/
+  /*font-size: 7rem;*/
+  /*position: absolute;*/
+  /*opacity: 0.2;*/
+  /*top: 20px;*/
+  /*left: 20px;*/
+  /*z-index: 0;*/
 }
 
 .faq.active::before {
-  color: #3498db;
-  top: -10px;
-  left: 300px;
-  transform: rotateY(180deg);
+  /*color: #3498db;*/
+  /*top: -10px;*/
+  /*left: 300px;*/
+  /*transform: rotateY(180deg);*/
 }
 
 .faq-title {
@@ -1852,5 +1869,4 @@ iframe{
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
-}  
-  
+}
