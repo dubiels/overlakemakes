@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
 }
 
 h1 {
@@ -37,22 +37,22 @@ text-align: center;
 
 .faq.active::before,
 .faq.active::after {
-  content: '\f075';
-  font-family: 'Font Awesome 5 Free';
-  color: #2ecc71;
-  font-size: 7rem;
-  position: absolute;
-  opacity: 0.2;
-  top: 20px;
-  left: 20px;
-  z-index: 0;
+  /*content: '\f075';*/
+  /*font-family: 'Font Awesome 5 Free';*/
+  /*color: #2ecc71;*/
+  /*font-size: 7rem;*/
+  /*position: absolute;*/
+  /*opacity: 0.2;*/
+  /*top: 20px;*/
+  /*left: 20px;*/
+  /*z-index: 0;*/
 }
 
 .faq.active::before {
-  color: #3498db;
-  top: -10px;
-  left: 300px;
-  transform: rotateY(180deg);
+  /*color: #3498db;*/
+  /*top: -10px;*/
+  /*left: 300px;*/
+  /*transform: rotateY(180deg);*/
 }
 
 .faq-title {
